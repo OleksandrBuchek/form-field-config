@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2022",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@medical-case-report-journey": ["libs/medical-case-report-journey/src/index.ts"],
+      "@shared/ui-polymorpheus-forms": ["libs/shared/ui-polymorpheus-forms/src/index.ts"],
+      "@shared/util-forms": ["libs/shared/util-forms/src/index.ts"],
+      "@shared/util-helpers": ["libs/shared/util-helpers/src/index.ts"],
+      "@shared/util-math": ["libs/shared/util-math/src/index.ts"],
+      "@shared/util-memoization": ["libs/shared/util-memoization/src/index.ts"],
+      "@shared/util-object": ["libs/shared/util-object/src/index.ts"],
+      "@shared/util-rxjs-interop": ["libs/shared/util-rxjs-interop/src/index.ts"],
+      "@shared/util-types": ["libs/shared/util-types/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
